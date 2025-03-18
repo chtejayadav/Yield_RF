@@ -87,8 +87,6 @@ def main():
         
         input_scaled = scaler.transform(input_data)
         prediction = model.predict(input_scaled)[0]
-        
-        st.success(f"Predicted Crop Yield: {prediction:.2f} hg/ha")
          # Display prediction result
     st.markdown(
     f'<p style="color:white; background-color:#28a745; padding:10px; border-radius:5px; font-size:16px; font-weight:bold;">🏥 Predicted Crop Yield: {prediction:.2f} hg/ha</p>', 
