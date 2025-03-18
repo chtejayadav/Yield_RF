@@ -2,6 +2,7 @@
 
 ## Overview
 This project aims to analyze and predict agricultural yield using machine learning techniques, specifically the Random Forest algorithm. The project includes data analysis, model training, and a web application for predictions.
+
 ---
 ## Project Structure
 - **1. Yield Data Analysis.ipynb**: Exploratory data analysis (EDA) of the dataset.
@@ -34,6 +35,7 @@ To analyze and train the model, open the Jupyter notebooks:
 jupyter notebook
 ```
 Then, run `1. Yield Data Analysis.ipynb` followed by `2. Yield Data ML.ipynb`.
+
 ---
 ### Running the Web App
 To launch the web application:
@@ -41,6 +43,7 @@ To launch the web application:
 python app.py
 ```
 This will start a local server where you can input data and get yield predictions.
+
 ---
 ## Dependencies
 All required dependencies are listed in `requirements.txt`. Install them using:
@@ -50,11 +53,13 @@ pip install -r requirements.txt
 ---
 ## Contributing
 Feel free to fork the repository and submit pull requests with improvements or bug fixes.
+
 ---
-## Author
-Developed by: CH TEJA YADAV
- Email: tejayadavch@gmail.com
- GitHub: https://github.com/chtejayadav
- Feel free to reach out for any questions or contributions!
+## 📝 Author
+
+Developed by: **CH TEJA YADAV**  
+📧 Email: tejayadavch@gmail.com  
+💻 GitHub: https://github.com/chtejayadav 
+
 ---
 To use the app click here https://chtejayadav-yield-rf.streamlit.app/
