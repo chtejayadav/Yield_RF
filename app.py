@@ -4,6 +4,36 @@ import numpy as np
 import joblib
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.ensemble import RandomForestRegressor
+def set_background(image_path):
+    with open(image_path, "rb") as img_file:
+        encoded_string = base64.b64encode(img_file.read()).decode()
+    
+    background_style = f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/jpg;base64,{encoded_string}");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }}
+    h1, h2, h3, h4, h5, h6, label, span {{
+        color: white !important; /* Force white text */
+    }}
+    .stSelectbox div[data-testid="stMarkdownContainer"] * {{
+        color: white !important; /* Keep dropdown values black !important*/
+    }}
+    /* Remove sidebar background */
+    section[data-testid="stSidebar"] {{
+        background-color: transparent !important;
+        color: white !important;
+    }}
+    </style>
+    """
+    st.markdown(background_style, unsafe_allow_html=True)
+
+# Set background image
+image_path = "harvest-280.gif"  # Ensure the image exists in the same directory
+set_background(image_path)
 
 def load_data():
     """Load and preprocess dataset."""
