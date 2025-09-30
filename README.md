@@ -87,6 +87,7 @@ Found a bug? Have an idea to make it better? Feel free to fork the repo, open a 
 
 **CH TEJA YADAV**
 📧 Email: [tejayadavch@gmail.com](mailto:tejayadavch@gmail.com)
+
 🌐 GitHub: [chtejayadav](https://github.com/chtejayadav)
 
 👉 Check out the live app: [Yield Prediction App](https://chtejayadav-yield-rf.streamlit.app/)
