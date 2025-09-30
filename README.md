@@ -1,65 +1,73 @@
-# Yield Prediction Using Random Forest
+Yield Prediction Using Random Forest
+Overview
 
-## Overview
-This project aims to analyze and predict agricultural yield using machine learning techniques, specifically the Random Forest algorithm. The project includes data analysis, model training, and a web application for predictions.
+This is a small project I worked on to understand how machine learning can be used in agriculture. The main idea is to predict crop yield based on given data, and I used the Random Forest algorithm for this. The project covers some data analysis, model building, and also a simple web app so the results can be tested easily.
 
----
-## Project Structure
-- **1. Yield Data Analysis.ipynb**: Exploratory data analysis (EDA) of the dataset.
-- **2. Yield Data ML.ipynb**: Machine learning model development for yield prediction.
-- **app.py**: A Python-based web application for making predictions.
-- **harvest-280.gif**: A visualization related to the project.
-- **requirements.txt**: List of required dependencies.
-- **yield_df.csv**: The dataset used for training and evaluation.
----
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Yield_RF.git
-   cd Yield_RF-main
-   ```
-2. Create and activate a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
----
-## Usage
-### Running the Jupyter Notebooks
-To analyze and train the model, open the Jupyter notebooks:
-```bash
-jupyter notebook
-```
-Then, run `1. Yield Data Analysis.ipynb` followed by `2. Yield Data ML.ipynb`.
+Project Structure
 
----
-### Running the Web App
-To launch the web application:
-```bash
-python app.py
-```
-This will start a local server where you can input data and get yield predictions.
+Here’s what you’ll find inside this repo:
 
----
-## Dependencies
-All required dependencies are listed in `requirements.txt`. Install them using:
-```bash
+1. Yield Data Analysis.ipynb → Notebook where I did exploratory data analysis (EDA).
+
+2. Yield Data ML.ipynb → Notebook for training the Random Forest model.
+
+app.py → Streamlit-based web app that lets you try predictions.
+
+harvest-280.gif → Just a fun visualization I added for presentation.
+
+requirements.txt → List of Python packages needed.
+
+yield_df.csv → Dataset used for training and testing.
+
+Installation
+
+Clone this repository:
+
+git clone https://github.com/your-username/Yield_RF.git
+cd Yield_RF-main
+
+
+(Optional but recommended) set up a virtual environment:
+
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+
+Install dependencies:
+
 pip install -r requirements.txt
-```
----
-## Contributing
-Feel free to fork the repository and submit pull requests with improvements or bug fixes.
 
----
-## 📝 Author
+Usage
+Notebooks
 
-Developed by: **CH TEJA YADAV**  
-📧 Email: tejayadavch@gmail.com  
-💻 GitHub: https://github.com/chtejayadav 
+Open Jupyter and run the two notebooks in order:
 
----
-To use the app click here https://chtejayadav-yield-rf.streamlit.app/
+1. Yield Data Analysis.ipynb
+
+2. Yield Data ML.ipynb
+
+Web App
+
+Run the app locally with:
+
+python app.py
+
+
+This will open a local server in your browser where you can input values and get yield predictions.
+
+Dependencies
+
+Everything you need is listed in requirements.txt. Just install it once and you’re good to go.
+
+Contributing
+
+If you find bugs or have ideas to improve this project, feel free to fork and open a pull request. I’d be happy to collaborate.
+
+Author
+
+👨‍💻 CH TEJA YADAV
+📧 Email: tejayadavch@gmail.com
+
+🌐 GitHub: chtejayadav
+
+👉 Try the live app here: Yield Prediction App
